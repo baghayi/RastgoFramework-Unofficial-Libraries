@@ -1,7 +1,7 @@
 <?php
 namespace root\library\FileHandling\Picture;
 
-final class Picture extends SplFileInfo
+final class Picture extends \SplFileInfo
 {
     private $storageDirectory = NULL;
     private $fileReference;
