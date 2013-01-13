@@ -7,7 +7,7 @@ final class Picture extends \SplFileInfo
     private $fileReference;
     private $pictureInfo;
     private $pictureName;
-
+	public static $registry;
 
     public function setFileReference($fileReference)
     {
